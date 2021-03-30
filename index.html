@@ -35,24 +35,39 @@
   </p>
 </body>
 <body>
-  <div class="slidershow middle" width="600" height="300">
+  <div class="slidershow middle">
+    
     <div class="slides">
-      <div class="slide">
-        <img src="sucai/img2.jpg" width="600" height="300">
-      </div>
-
-      <div class="slide">
-        <img src="sucai/img3.jpg" width="600" height="300">
-      </div>
-
-      <div class="slide">
-        <img src="sucai/img4.jpg" width="600" height="300">
-      </div>
-
-      <div class="slide">
-        <img src="sucai/img5.jpg" width="600" height="300">
-      </div>
+      
+    <input type="radio" name="r" id="r1" checked />
+    <input type="radio" name="r" id="r2"  />
+    <input type="radio" name="r" id="r3"  />
+    
+    <div class="slide s1">
+      <img src="./sucai/img2.jpg" alt="photo" />
     </div>
+    
+    <div class="slide">
+      <img src="./sucai/img3.jpg" alt="photo" />
+    </div>
+    
+    <div class="slide">
+      <img src="./sucai/img4.jpg" alt="photo" />
+    </div>
+
+    <div class="slide">
+      <img src="./sucai/img5.jpg" alt="photo" />
+    </div>
+    
+    </div>
+    
+    <div class="navigaion">
+      <label for="r1" class="bar"></label>
+       <!-- label标签为 input 元素定义标注  "for"属性可把label绑定到另外一个元素。请把 "for" 属性的值设置为相关元素的 id 属性的值。 -->
+      <label for="r2" class="bar"></label>
+      <label for="r3" class="bar"></label>
+    </div>
+    
   </div>
 </body>
 </html>
